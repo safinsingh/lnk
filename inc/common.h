@@ -1,8 +1,8 @@
 #ifndef COMMON_H_
 #define COMMON_H_
 
-#define NUM_THREADS 8
-#define MAX_EPOLL_EVENTS 64
+#define NUM_THREADS 16
+#define MAX_EPOLL_EVENTS 4096
 #define CONFIG_PATH ("lnk.cfg")
 
 // convenience fn.

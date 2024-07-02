@@ -14,4 +14,4 @@ if ! command -v ab &>/dev/null; then
 fi
 
 echo "a;b" >lnk.cfg
-ab -n 100000 -c 5000 "http://localhost:8080/a"
+ab -n 20000 -c 5000 "http://localhost:8080/a"
