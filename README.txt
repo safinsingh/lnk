@@ -6,6 +6,8 @@ lnk - fast [link] shortener
 `lnk` is multithreaded and uses a thread-safe queue to handle incoming requests and distribute them
 among threads.
 
+`lnk` uses non-blocking sockets and monitors them with an edge-triggered epoll(7) interface.
+
 `lnk` supports configuration in a `lnk.cfg` file with the format as follows: `a;https://google.com`
 will redirect /a --> google.com.
 
